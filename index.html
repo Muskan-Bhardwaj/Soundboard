@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head> <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+         <title>SoundBoard</title>
+         <link rel="stylesheet" href="style.css" />
+         </head> 
+         <body> 
+            <header> 
+                <h1 class="title">SoundBoard</h1> 
+            </header> 
+            <main> 
+                <div class="container"> 
+                    <div class="box" data-sound="dog">🐶Dog</div>
+                    <div class="box" data-sound="pop">💥Pop</div>
+                    <div class="box" data-sound="cat">🐱Cat</div> 
+                    <div class="box" data-sound="clap">👏Clap</div> 
+                    <div class="box" data-sound="laugh">😂Laugh</div> 
+                    <div class="box" data-sound="lion">🦁Lion</div> 
+                </div> 
+            </main> 
+            <div class="controls"> 
+                <label for="volume">Volume</label> 
+                <input type="range" id="volume" min="1" max="100" step="1" /> 
+                <button id="mute-btn">🔇</button>
+            </div> 
+                <script src="script.js"></script> 
+            </body>
+            </html>
